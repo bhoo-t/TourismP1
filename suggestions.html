@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="suggestions.css"/>
+</head>
+<body>
+    <h1>PLEASE LOGIN</h1>
+    <h1>FOR LEAVING YOUR SUGGESTIONS</h1>
+    <form id="login">
+    <label for="username"><h6 class="first">Enter Username</h6></label>
+    <input type="text" id="username"/><br>
+    <label for="pwd"><h6 class="second">Enter password</h6></label>
+    <input type="password" id="pwd"/>
+    <br><br>
+    <button id="check" onclick="validation()">Login</button>
+    <p id="sem"></p>
+    <a href="tourism.html">Go to home page</a>
+
+    </form>
+    <script>
+        function validation(){
+        var x= document.getElementById('username').value
+        var y= document.getElementById('pwd').value
+        if (x!="glw"){
+            alert("Invalid username");
+            /*text="Successfully logged in";
+            document.getElementById("sem").innerHTML = text;*/
+        }
+        if (y!="glw"){
+            alert("Invalid password");
+            /*text="Successfully logged in";
+            document.getElementsByClassName("sem").innerHTML = text;*/
+            
+        }
+        if ((x=="glw")&&(y=="glw"))
+        {    alert("logged in");
+             
+            
+            if(window.confirm('Really go to another page?'))
+            {
+                var url="https://www.w3schools.com/tags/tag_button.asp";
+                window.location=url;
+                
+                
+            }
+            
+
+
+        }
+    }
+    </script>
+</body>
+</html>
+
+<!--//location.href="https://stackoverflow.com/questions/35606147/how-to-call-javascript-function-from-script-tag";*/
+
+/*onclick="alert('hello');window.location='ttps://stackoverflow.com/questions/35606147/how-to-call-javascript-function-from-script-tag'"*/
+            //if((window.confirm("Succesfully logged in"))){location.href="https://www.w3schools.com/tags/tag_button.asp";}
+            /*text="Successfully logged in";
+            document.getElementsById("sem").innerHTML = text;*/
+
+            //location.replace("https://www.w3schools.com/tags/tag_button.asp");-->

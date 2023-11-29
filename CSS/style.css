@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+/*       blog (section)      */
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+/* main heading*/
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(83, 20, 12);
+}
+/*navigation bar*/
+.categories{
+    border: 0.1 thin tan;
+    padding: 30px;
+    font: 15px;
+    margin: 10px 0;
+}
+.categories ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.categories li{
+    list-style-type: none;
+    padding-left: 10px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*color: rgb(230, 190, 137);*/
+}
+.categories a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.categories a:link{
+    color: rgb(154, 118, 74);
+    font-size: large;
+}
+.categories a:hover{
+    color: rgb(105, 52, 7);
+}
+
+/*containers (lunch bag)*/
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+/* lunch boxes*/
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text .blog.title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(82, 48, 6);
+}
+/*.blog-text .blog.title:hover{
+    color: rgb(0, 242, 255);
+    transition: all ease 0.3s;
+}*/
+.blog-text p{
+    color: #555151;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a{
+    color: rgb(99, 61, 14);
+}
+.blog-text a:hover{
+    color:  rgb(255, 0, 0);
+    transition: all ease 0.3s;
+}
+/*a, a:visited, a:hover, a:active {
+    color: inherit;
+  }*/
+a, a:visited{
+    color: rgb(154, 118, 74);
+}

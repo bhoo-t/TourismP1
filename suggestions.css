@@ -1,0 +1,39 @@
+body{
+    background-image: url(braid.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.first {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#username {
+    height: 40px;
+}
+
+.second {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#pwd {
+    height: 40px;
+}
+
+#check{
+    font-size: 22px;
+}
+
+input{
+    width: 500px;
+}
